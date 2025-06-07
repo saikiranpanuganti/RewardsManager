@@ -7,19 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F19DCDA2DF4105B00340CCB /* LiveLikeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F19DCD92DF4105B00340CCB /* LiveLikeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F19DCE82DF410B500340CCB /* LiveLikeFrameworkiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F19DCE72DF410B500340CCB /* LiveLikeFrameworkiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F19DCF42DF410CC00340CCB /* LiveLikeFrameworkTVOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F19DCF32DF410CC00340CCB /* LiveLikeFrameworkTVOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5205942DF41BF700F03695 /* CarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5205922DF41BF700F03695 /* CarClass.swift */; };
+		7F5205952DF41BF700F03695 /* CarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5205922DF41BF700F03695 /* CarClass.swift */; };
+		B5AFDAC50750EAD7BA404F57 /* Pods_LiveLikeFrameworkTVOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F0668690F0EADF9B638D79 /* Pods_LiveLikeFrameworkTVOS.framework */; };
+		F1B5DDD49B856943EF3D528E /* Pods_LiveLikeFrameworkiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDDD71CAEF55D85B77A85CE /* Pods_LiveLikeFrameworkiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F19DCD62DF4105B00340CCB /* LiveLikeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveLikeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F19DCD92DF4105B00340CCB /* LiveLikeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLikeFramework.h; sourceTree = "<group>"; };
+		02F0668690F0EADF9B638D79 /* Pods_LiveLikeFrameworkTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveLikeFrameworkTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1570102CF8E38DADE464785B /* Pods-LiveLikeFrameworkTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLikeFrameworkTVOS.release.xcconfig"; path = "Target Support Files/Pods-LiveLikeFrameworkTVOS/Pods-LiveLikeFrameworkTVOS.release.xcconfig"; sourceTree = "<group>"; };
+		737D89097899B69CB1BFFECC /* Pods-LiveLikeFrameworkiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLikeFrameworkiOS.debug.xcconfig"; path = "Target Support Files/Pods-LiveLikeFrameworkiOS/Pods-LiveLikeFrameworkiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7F19DCE52DF410B500340CCB /* LiveLikeFrameworkiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveLikeFrameworkiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F19DCE72DF410B500340CCB /* LiveLikeFrameworkiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLikeFrameworkiOS.h; sourceTree = "<group>"; };
+		7F19DCF12DF410CC00340CCB /* LiveLikeFrameworkTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveLikeFrameworkTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F19DCF32DF410CC00340CCB /* LiveLikeFrameworkTVOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLikeFrameworkTVOS.h; sourceTree = "<group>"; };
+		7F5205922DF41BF700F03695 /* CarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarClass.swift; sourceTree = "<group>"; };
+		A162EA8361B4CE5EC2D74867 /* Pods-LiveLikeFrameworkTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLikeFrameworkTVOS.debug.xcconfig"; path = "Target Support Files/Pods-LiveLikeFrameworkTVOS/Pods-LiveLikeFrameworkTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6A4178FB3AE8677D729C55 /* Pods-LiveLikeFrameworkiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveLikeFrameworkiOS.release.xcconfig"; path = "Target Support Files/Pods-LiveLikeFrameworkiOS/Pods-LiveLikeFrameworkiOS.release.xcconfig"; sourceTree = "<group>"; };
+		CDDDD71CAEF55D85B77A85CE /* Pods_LiveLikeFrameworkiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveLikeFrameworkiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7F19DCD32DF4105B00340CCB /* Frameworks */ = {
+		7F19DCE22DF410B500340CCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1B5DDD49B856943EF3D528E /* Pods_LiveLikeFrameworkiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F19DCEE2DF410CC00340CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AFDAC50750EAD7BA404F57 /* Pods_LiveLikeFrameworkTVOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,57 +52,126 @@
 		7F19DCCC2DF4105B00340CCB = {
 			isa = PBXGroup;
 			children = (
-				7F19DCD82DF4105B00340CCB /* LiveLikeFramework */,
+				7F5205932DF41BF700F03695 /* Sources */,
+				7F19DCE62DF410B500340CCB /* LiveLikeFrameworkiOS */,
+				7F19DCF22DF410CC00340CCB /* LiveLikeFrameworkTVOS */,
 				7F19DCD72DF4105B00340CCB /* Products */,
+				818E390F789A677596D57FA8 /* Pods */,
+				9525909767491C0CCD69FD0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7F19DCD72DF4105B00340CCB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F19DCD62DF4105B00340CCB /* LiveLikeFramework.framework */,
+				7F19DCE52DF410B500340CCB /* LiveLikeFrameworkiOS.framework */,
+				7F19DCF12DF410CC00340CCB /* LiveLikeFrameworkTVOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F19DCD82DF4105B00340CCB /* LiveLikeFramework */ = {
+		7F19DCE62DF410B500340CCB /* LiveLikeFrameworkiOS */ = {
 			isa = PBXGroup;
 			children = (
-				7F19DCD92DF4105B00340CCB /* LiveLikeFramework.h */,
+				7F19DCE72DF410B500340CCB /* LiveLikeFrameworkiOS.h */,
 			);
-			path = LiveLikeFramework;
+			path = LiveLikeFrameworkiOS;
+			sourceTree = "<group>";
+		};
+		7F19DCF22DF410CC00340CCB /* LiveLikeFrameworkTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F19DCF32DF410CC00340CCB /* LiveLikeFrameworkTVOS.h */,
+			);
+			path = LiveLikeFrameworkTVOS;
+			sourceTree = "<group>";
+		};
+		7F5205932DF41BF700F03695 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7F5205922DF41BF700F03695 /* CarClass.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		818E390F789A677596D57FA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A162EA8361B4CE5EC2D74867 /* Pods-LiveLikeFrameworkTVOS.debug.xcconfig */,
+				1570102CF8E38DADE464785B /* Pods-LiveLikeFrameworkTVOS.release.xcconfig */,
+				737D89097899B69CB1BFFECC /* Pods-LiveLikeFrameworkiOS.debug.xcconfig */,
+				BA6A4178FB3AE8677D729C55 /* Pods-LiveLikeFrameworkiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9525909767491C0CCD69FD0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F0668690F0EADF9B638D79 /* Pods_LiveLikeFrameworkTVOS.framework */,
+				CDDDD71CAEF55D85B77A85CE /* Pods_LiveLikeFrameworkiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7F19DCD12DF4105B00340CCB /* Headers */ = {
+		7F19DCE02DF410B500340CCB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F19DCDA2DF4105B00340CCB /* LiveLikeFramework.h in Headers */,
+				7F19DCE82DF410B500340CCB /* LiveLikeFrameworkiOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F19DCEC2DF410CC00340CCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F19DCF42DF410CC00340CCB /* LiveLikeFrameworkTVOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7F19DCD52DF4105B00340CCB /* LiveLikeFramework */ = {
+		7F19DCE42DF410B500340CCB /* LiveLikeFrameworkiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F19DCDD2DF4105B00340CCB /* Build configuration list for PBXNativeTarget "LiveLikeFramework" */;
+			buildConfigurationList = 7F19DCE92DF410B500340CCB /* Build configuration list for PBXNativeTarget "LiveLikeFrameworkiOS" */;
 			buildPhases = (
-				7F19DCD12DF4105B00340CCB /* Headers */,
-				7F19DCD22DF4105B00340CCB /* Sources */,
-				7F19DCD32DF4105B00340CCB /* Frameworks */,
-				7F19DCD42DF4105B00340CCB /* Resources */,
+				891B9F50EB555C39D1B14727 /* [CP] Check Pods Manifest.lock */,
+				7F19DCE02DF410B500340CCB /* Headers */,
+				7F19DCE12DF410B500340CCB /* Sources */,
+				7F19DCE22DF410B500340CCB /* Frameworks */,
+				7F19DCE32DF410B500340CCB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LiveLikeFramework;
-			productName = LiveLikeFramework;
-			productReference = 7F19DCD62DF4105B00340CCB /* LiveLikeFramework.framework */;
+			name = LiveLikeFrameworkiOS;
+			productName = LiveLikeFrameworkiOS;
+			productReference = 7F19DCE52DF410B500340CCB /* LiveLikeFrameworkiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F19DCF02DF410CC00340CCB /* LiveLikeFrameworkTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F19DCF52DF410CC00340CCB /* Build configuration list for PBXNativeTarget "LiveLikeFrameworkTVOS" */;
+			buildPhases = (
+				FB15080B3DB2DF4E8E4609EE /* [CP] Check Pods Manifest.lock */,
+				7F19DCEC2DF410CC00340CCB /* Headers */,
+				7F19DCED2DF410CC00340CCB /* Sources */,
+				7F19DCEE2DF410CC00340CCB /* Frameworks */,
+				7F19DCEF2DF410CC00340CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveLikeFrameworkTVOS;
+			productName = LiveLikeFrameworkTVOS;
+			productReference = 7F19DCF12DF410CC00340CCB /* LiveLikeFrameworkTVOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -91,8 +183,13 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					7F19DCD52DF4105B00340CCB = {
+					7F19DCE42DF410B500340CCB = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					7F19DCF02DF410CC00340CCB = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -109,13 +206,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F19DCD52DF4105B00340CCB /* LiveLikeFramework */,
+				7F19DCE42DF410B500340CCB /* LiveLikeFrameworkiOS */,
+				7F19DCF02DF410CC00340CCB /* LiveLikeFrameworkTVOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7F19DCD42DF4105B00340CCB /* Resources */ = {
+		7F19DCE32DF410B500340CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F19DCEF2DF410CC00340CCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -124,11 +229,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		891B9F50EB555C39D1B14727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveLikeFrameworkiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB15080B3DB2DF4E8E4609EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveLikeFrameworkTVOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		7F19DCD22DF4105B00340CCB /* Sources */ = {
+		7F19DCE12DF410B500340CCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5205942DF41BF700F03695 /* CarClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F19DCED2DF410CC00340CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5205952DF41BF700F03695 /* CarClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,11 +416,12 @@
 			};
 			name = Release;
 		};
-		7F19DCDE2DF4105B00340CCB /* Debug */ = {
+		7F19DCEA2DF410B500340CCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737D89097899B69CB1BFFECC /* Pods-LiveLikeFrameworkiOS.debug.xcconfig */;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -271,36 +433,37 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.saikiran.LiveLikeFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saikiran.LiveLikeFrameworkiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7F19DCDF2DF4105B00340CCB /* Release */ = {
+		7F19DCEB2DF410B500340CCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6A4178FB3AE8677D729C55 /* Pods-LiveLikeFrameworkiOS.release.xcconfig */;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -312,28 +475,104 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.saikiran.LiveLikeFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saikiran.LiveLikeFrameworkiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F19DCF62DF410CC00340CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A162EA8361B4CE5EC2D74867 /* Pods-LiveLikeFrameworkTVOS.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7TDSC58S82;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saikiran.LiveLikeFrameworkTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+			};
+			name = Debug;
+		};
+		7F19DCF72DF410CC00340CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1570102CF8E38DADE464785B /* Pods-LiveLikeFrameworkTVOS.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7TDSC58S82;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saikiran.LiveLikeFrameworkTVOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -349,11 +588,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F19DCDD2DF4105B00340CCB /* Build configuration list for PBXNativeTarget "LiveLikeFramework" */ = {
+		7F19DCE92DF410B500340CCB /* Build configuration list for PBXNativeTarget "LiveLikeFrameworkiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F19DCDE2DF4105B00340CCB /* Debug */,
-				7F19DCDF2DF4105B00340CCB /* Release */,
+				7F19DCEA2DF410B500340CCB /* Debug */,
+				7F19DCEB2DF410B500340CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F19DCF52DF410CC00340CCB /* Build configuration list for PBXNativeTarget "LiveLikeFrameworkTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F19DCF62DF410CC00340CCB /* Debug */,
+				7F19DCF72DF410CC00340CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
